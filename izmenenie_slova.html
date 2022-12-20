@@ -1,0 +1,28 @@
+<!--3*. Введите число, например 5, и выведите текстом 5 Яблок, если введено 3 вывести 3 Яблока и т.д. по всем правилам 
+русского языка.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <script>
+        let num = prompt("Введите количество яблок: ");
+
+        if ((num == 1) || (num % 10 == 1))  {
+            alert(num + " яблоко");
+        }else if  ((2<= num <= 4) || (2<= num % 10 <= 4)) {
+            alert(num + " яблока");
+        }else  {
+            alert(num + " яблок");
+        }
+    
+    
+    </script>
+
+</body>
+</html>
+ 
